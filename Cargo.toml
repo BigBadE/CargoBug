@@ -1,0 +1,16 @@
+[package]
+name = "testing"
+version = "0.1.0"
+edition = "2021"
+
+build = "build.rs"
+
+[workspace]
+members = [
+    "stage-1"
+]
+
+[build-dependencies]
+[build-dependencies.stage-1]
+path = "stage-1"
+artifact = "bin"
