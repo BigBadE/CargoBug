@@ -8,4 +8,6 @@ pub fn panic(_info: &core::panic::PanicInfo) -> ! {
 }
 
 #[lang = "eh_personality"]
-pub fn ignored() {}
+pub fn ignored() {
+    let test = 2;
+}

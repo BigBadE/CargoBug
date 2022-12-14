@@ -7,10 +7,10 @@ build = "build.rs"
 
 [workspace]
 members = [
-    "stage-1"
+    "requires-linker"
 ]
 
 [build-dependencies]
 [build-dependencies.stage-1]
-path = "stage-1"
+path = "requires-linker"
 artifact = "bin"
