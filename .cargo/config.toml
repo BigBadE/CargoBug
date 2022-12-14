@@ -4,4 +4,4 @@ build-std = ["core", "compiler_builtins"]
 bindeps = true
 
 [build]
-target = "stage-1/target.json"
+target = "requires-linker/target.json"
