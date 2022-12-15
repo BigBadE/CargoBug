@@ -4,4 +4,7 @@ build-std = ["core", "compiler_builtins"]
 bindeps = true
 
 [build]
+# Uncomment this and comment out the other, see how building in testing finds target.json but requires-linker doesn't
+# target = "/requires-linker/target.json"
+# With this target, building in either directory seems to find target.json (or at least will compile) but won't use the right linker
 target = "target.json"

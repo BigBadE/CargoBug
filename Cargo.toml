@@ -11,6 +11,6 @@ members = [
 ]
 
 [build-dependencies]
-[build-dependencies.stage-1]
+[build-dependencies.requires-linker]
 path = "requires-linker"
 artifact = "bin"

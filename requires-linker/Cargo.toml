@@ -1,5 +1,5 @@
 [package]
-name = "stage-1"
+name = "requires-linker"
 version = "0.1.0"
 edition = "2021"
 
